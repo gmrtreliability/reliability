@@ -120,9 +120,9 @@ const App = () => {
         <Guideliness />
         <Theory />
         <h1 className="hh">Reliability of GMRT</h1>
-        <Routes>
+        <Routes  >
           <Route
-            path="/"
+            path="/reliability"
             element={
               <>
                 <Dropdowns calculateReliability={calculateReliability} />

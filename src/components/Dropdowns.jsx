@@ -18,7 +18,7 @@ const Dropdowns = ({ calculateReliability }) => {
     const fetchExcelData = async () => {
       setLoading(true);
       try {
-        const response = await fetch("/data.xlsx");
+        const response = await fetch("/reliability/data.xlsx");
         const arrayBuffer = await response.arrayBuffer();
         const workbook = XLSX.read(arrayBuffer, { type: "array" });
         const sheetName = workbook.SheetNames[0];
