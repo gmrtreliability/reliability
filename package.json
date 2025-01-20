@@ -1,5 +1,6 @@
 {
-  "name": "gmrt-reliability",
+  
+  "homepage": "https://github.com/gmrtreliability/reliability",
   "private": true,
   "version": "0.0.0",
   "type": "module",
