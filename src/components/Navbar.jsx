@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <nav className="navbar" ref={navbarRef}>
       <div className="navbar-container">
-        <Link to="/reliability/" className="navbar-logo">
+        <Link to="/" className="navbar-logo">
           <img src={logo} alt="GMRT Logo" className="logo" />
         </Link>
         {/* Hamburger Menu Icon */}
@@ -39,7 +39,7 @@ const Navbar = () => {
         {/* Navigation Menu */}
         <ul className={`navbar-menu ${menuOpen ? "open" : ""}`}>
           <li className="navbar-item active">
-            <Link to="/reliability/" className="navbar-link">
+            <Link to="/" className="navbar-link">
               Home
             </Link>
           </li>
