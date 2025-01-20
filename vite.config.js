@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base:"/reliability/",
+  base:"/",
   server: {
     proxy: {
       '/upload': {
